@@ -1,0 +1,49 @@
+/*
+ Bubble Sort Process for the Array [5, 2, 8, 1, 3]:
+replace the array give ypour own number
+
+1. Introduction to Bubble Sort:
+
+   Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The pass is repeated until the entire list is sorted.
+
+2. Pass 1:
+
+   Start with the array [5, 2, 8, 1, 3].
+   Compare adjacent elements:
+
+   - Compare 5 and 2: Since 5 > 2, swap them: [2, 5, 8, 1, 3].
+   - Compare 5 and 8: No swap needed.
+   - Compare 8 and 1: Since 8 > 1, swap them: [2, 5, 1, 8, 3].
+   - Compare 8 and 3: Since 8 > 3, swap them: [2, 5, 1, 3, 8].
+
+   After Pass 1: [2, 5, 1, 3, 8]
+
+3. Pass 2:
+
+   Repeat the process for the remaining unsorted elements:
+
+   - Compare 2 and 5: No swap needed.
+   - Compare 5 and 1: Since 5 > 1, swap them: [2, 1, 5, 3, 8].
+   - Compare 5 and 3: Since 5 > 3, swap them: [2, 1, 3, 5, 8].
+
+   After Pass 2: [2, 1, 3, 5, 8]
+
+4. Pass 3:
+
+   Repeat the process:
+
+   - Compare 2 and 1: Since 2 > 1, swap them: [1, 2, 3, 5, 8].
+
+   After Pass 3: [1, 2, 3, 5, 8]
+
+5. Pass 4:
+
+   No swaps needed as the array is already sorted.
+
+   After Pass 4: [1, 2, 3, 5, 8]
+
+   The sorted array is [1, 2, 3, 5, 8].
+*/
+
+/*
+ Tracing the Bubble S
