@@ -16,7 +16,7 @@ void append(Node** head_ref, int new_data) {
     // 1. Allocate memory for the new node
     Node* new_node = new Node(new_data);
 
-    // Pointer to traverse the list
+    // Pointer to traverse the list//
     Node* last = *head_ref;
 
     // 2. Assign the data to the new node
